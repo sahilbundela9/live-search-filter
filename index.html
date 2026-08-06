@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Live Search Filter</title>
+
+    <link
+        rel="stylesheet"
+        href="./css/style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <section
+            class="search-card"
+            aria-labelledby="search-title">
+
+            <h1 id="search-title">
+                Live Search Filter
+            </h1>
+
+            <p class="subtitle">
+                Search from the list of popular cities.
+            </p>
+
+            <div class="search-box">
+
+                <label
+                    class="visually-hidden"
+                    for="searchInput">
+                    Search Cities
+                </label>
+
+                <input
+                    id="searchInput"
+                    type="text"
+                    placeholder="Search city..."
+                    autocomplete="off"
+                    aria-label="Search city">
+
+            </div>
+
+            <ul
+                id="resultList"
+                class="result-list"
+                aria-live="polite">
+            </ul>
+
+        </section>
+
+    </main>
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
