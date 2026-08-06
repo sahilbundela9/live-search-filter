@@ -19,7 +19,7 @@ The solution should include clean, modular, and optimized code with separate HTM
 After generating the code, review it like a senior software engineer and explain every function, architecture decision, performance optimization, complexity analysis, scalability considerations, browser compatibility, accessibility, interview explanation, possible interview questions with answers, testing strategy, and a professional README.
 
 
-Prompt 2:-
+Prompt 2:-(ChatGPT Genrates Master Prompt)
 
 Act as a Principal Frontend Engineer with 10+ years of experience working at Google, Meta, Amazon, Microsoft, or similar product-based companies.
 
